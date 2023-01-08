@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'PartyplannerBIS'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6F45CF23D60A44F5ADB170F836B71365 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DF2093C5D8084EBBB8E9DF5B5A7890BB }}
           package: .
