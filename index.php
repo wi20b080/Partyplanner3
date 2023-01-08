@@ -4,7 +4,7 @@ $host = "partyplannerbis-server.mysql.database.azure.com";
 $user = "wadhfhawnx";
 $password = "1M8MVB37F518GQ13$";
 $dbname = "partyplannerbis-database";
-$ssl_ca = '/path/to/DigiCertGlobalRootCA.crt (1).pem';
+$ssl_ca = 'DigiCertGlobalRootCA.crt (1).pem';
 
 $conn = mysqli_connect($host, $user, $password, $dbname, null, null, MYSQLI_CLIENT_SSL | MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT);
 
